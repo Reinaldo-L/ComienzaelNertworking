@@ -101,48 +101,32 @@
 /* Fin tarjeta de cada contacto*/
 /* Inicio Logo y texto central*/
 
-.navegador{
+.mainsection{
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 70%;
-  height: 100vh;
+  align-items: center;
+  width: 100%;
   background-color: #E8EBE4;
 }
 
-.nav-logo{
-  display: flex;
-  justify-content: center;
-}
-.nav-logo img{
-  padding-top: 20%;
-  width: 30%;
-  height: auto;
+.mainsection img{
+  margin-bottom: 1.5rem;
+  width: 16rem;
 }
   
 .bigtext{
-  justify-content: center;
-  padding-top: 20px;
-  margin-left: 25%;
-  width: 70%;
-  height: auto;
-  font-size: xx-large;
+font-size: xx-large;
 }
 
-.smalltext1{
-  justify-content: center;
-  align-items: center;
-  margin-left: 30%;
-  width: 70%;
-  height: auto;
+.smalltext{
+  font-weight: 400;
+  width: 35rem;
+  text-align: center;
+  padding: 0 0.5rem;
 }
 
-.smalltext2{
-  justify-content: center;
-  align-items: center;
-  margin-left: 35%;
-  width: 70%;
-  height: auto;
-}
+
 
 
 /* Fin Logo y texto central*/
