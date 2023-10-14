@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Roboto:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.menu{
+  display: flex;
+}
+.contactos{
+  width: 30%;
+  background-color: #fff;
+  align-items: center;
+}
+
+/* Inicio Maria*/
+
+.maria{
+  display: flex;
+  border: solid 1px rgb(214, 205, 205);
+}
+.maria img{
+  margin: 5%;
+  width: 7%;
+  border-radius: 70%;
+}
+.usernombre{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  
+  }
+
+  .mariastatus{
+    color:darkgrey
+  }
+
+.iconsmaria{
+  display: flex;
+  justify-content: end;
+  margin: 5% 0 0 40%;
+  }
+
+.iconmessage{
+  padding: 50%;
+  width: 5%;
+  margin: 5% 0 0 0%;
+}
+
+.iconmenu{
+  padding: 50%;
+  width: 5%;
+  margin: 5% 0 0 0%;
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+  margin: 25px 5px 25px 5px
+}
+
+.boton-chat{
+  padding: 3% 10% 3% 10%;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #A491D2;
+}
+
+/* Fin Maria*/
+/* Inicio tarjeta de cada contacto*/
+
+.usuario{
+  display: flex;
+  border: solid 1px rgb(214, 205, 205);
+}
+
+.usuario img{
+  margin: 5%;
+  width: 10%;
+  border-radius: 50%;
+}
+
+.usertext{
+  justify-content: left;
+}
+
+.usernombre{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin: 20% 0 0 0;
+  
+}
+
+.userstatus{
+  color: black
+}
+
+/* Fin tarjeta de cada contacto*/
+/* Inicio Logo y texto central*/
+
+.navegador{
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  height: 100vh;
+  background-color: #E8EBE4;
+}
+
+.nav-logo{
+  display: flex;
+  justify-content: center;
+}
+.nav-logo img{
+  padding-top: 20%;
+  width: 30%;
+  height: auto;
+}
+  
+.bigtext{
+  justify-content: center;
+  padding-top: 20px;
+  margin-left: 25%;
+  width: 70%;
+  height: auto;
+  font-size: xx-large;
+}
+
+.smalltext1{
+  justify-content: center;
+  margin-left: 30%;
+  width: 70%;
+  height: auto;
+}
+
+.smalltext2{
+  justify-content: center;
+  margin-left: 35%;
+  width: 70%;
+  height: auto;
+}
+
+
+/* Fin Logo y texto central*/
