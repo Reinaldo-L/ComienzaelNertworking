@@ -89,6 +89,7 @@
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   margin: 20% 0 0 0;
+  align-items: center;
   
 }
 
@@ -128,6 +129,7 @@
 
 .smalltext1{
   justify-content: center;
+  align-items: center;
   margin-left: 30%;
   width: 70%;
   height: auto;
@@ -135,6 +137,7 @@
 
 .smalltext2{
   justify-content: center;
+  align-items: center;
   margin-left: 35%;
   width: 70%;
   height: auto;
